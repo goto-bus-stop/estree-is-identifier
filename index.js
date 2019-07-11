@@ -1,3 +1,4 @@
+'use strict'
 module.exports = function isIdentifier (node, name) {
   if (typeof node !== 'object' || !node) {
     throw new TypeError('estree-is-identifier: node must be an object')
