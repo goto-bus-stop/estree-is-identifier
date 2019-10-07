@@ -12,6 +12,5 @@ jobs:
       uses: goto-bus-stop/standard-action@v1.0.0
       with:
         annotate: true
-        files: '{src/**/*.js,test/**/*.js}'
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
